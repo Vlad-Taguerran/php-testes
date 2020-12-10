@@ -1,0 +1,139 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(0, 0, 0, 0.527);
+}
+#all{
+    width: 100%;
+    height: 100%;
+}
+.tarja{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+#barra-menu{
+    width: 60px;
+}
+#check{
+    display: none;
+}
+#conteiner{
+    width: 300px;
+    background: rgb(51, 51, 51);
+    float: left;
+    margin-left: -300px;
+    margin-top: 80px;
+}
+#icone-check{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+#check:checked ~ #conteiner{
+    transform: translateX(300px);
+    transition: 1s;
+}
+nav ul li{
+    padding: 30px;
+    border-bottom: black solid;
+}
+nav ul li:hover{
+    background-color:blue;
+    transition: 1s;
+}
+nav ul li a{
+    color: white;
+    padding: 30px;
+}
+#nome{
+    padding-top: 30px;
+    margin-right: 300px;
+    float: right;
+    color: white;
+}
+#tel{
+    line-height: 40px;
+    margin-top: 30px;
+    height: 40px;
+    width: 20%;
+    color: white;
+    margin-right: 100px;
+    float: right;
+}
+#tel:hover{
+    transition: 2s;
+    background-color: chartreuse;
+}
+#numero{
+    float: right;
+    padding-right: 60px;
+}
+#numero:hover{
+    color: black;
+}
+#wpp{
+    width: 40px;
+}
+/*conteudo*/
+#hist-nin{
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#tex{
+    padding-top: 10px;
+    background: black;
+    color:white;
+    margin-top: 100px;
+    width: 980px;
+   outline: 1px red solid;
+   box-shadow: black 0px 0px 8px 10px;
+}
+p{  
+    text-align: justify;
+    margin-top: 20px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+/*roda pé*/
+footer{
+    color: white;
+    width: 100%;
+    height: 400px;
+    background: black;
+}
+#contato h1{
+    font-size: 32pt;
+    padding-bottom: 40px;
+    
+}
+#contato h2{
+    padding-bottom: 40px;
+}
+#contato{
+    position: relative;
+    text-align: justify;
+    padding-right: 5px;
+    padding-left: 100px;
+    padding-top: 40px;
+    float: left;
+}
+#mapa{
+    position: relative;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+
+

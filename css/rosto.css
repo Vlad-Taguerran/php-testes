@@ -1,0 +1,132 @@
+*{ 
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#all{
+    width: 100%;
+    height: 100%;
+}
+.tarja{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+nav ul{
+    background: rgb(70, 67, 67);
+    width: 300px;
+    margin-top: 80px;
+    position: absolute;
+    float: left;
+    margin-left: -300px;
+
+}
+#barra-menu{
+    width: 60px;
+}
+#check{
+    display: none;
+}
+#iconecheck{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+#check:checked ~ #menu{
+    transform: translateX(300px);
+    transition: 1s;
+}
+
+
+ nav ul li{
+     padding: 30px;
+    list-style-type: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+   
+   
+}
+nav ul li:hover{
+    background-color: rgb(2, 2, 255);
+    transition: 0.10s all;
+ }
+
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+.corpo #templo{
+    width: 100%;
+       
+}
+#nome{
+    padding-top: 30px;
+    margin-right: 300px;
+    float: right;
+    color: white;
+}
+/*fim cabeçalho*/
+#tel{
+    line-height: 40px;
+    margin-top: 30px;
+    height: 40px;
+    width: 20%;
+    color: white;
+    margin-right: 100px;
+    float: right;
+}
+#tel:hover{
+    transition: 2s;
+    background-color: chartreuse;
+}
+#numero{
+    float: right;
+    padding-right: 60px;
+}
+#numero:hover{
+    color: black;
+}
+#wpp{
+    width: 40px;
+}
+/*roda pé*/
+footer{
+    text-align: justify;
+    color: white;
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    bottom: -30px;
+}
+#contato h1{
+    font-size: 32pt;
+    padding-bottom: 40px;
+    
+}
+#contato h2{
+    padding-bottom: 40px;
+}
+#contato{
+    position: relative;
+    text-align: justify;
+    padding-right: 5px;
+    padding-left: 100px;
+    padding-top: 40px;
+    float: left;
+}
+#mapa{
+    position: relative;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.redes-sociais{
+    padding-top: 50px;
+    padding-right: 380px;
+    float: right;
+}
+.redes-sociais img{
+    width: 45px;
+    margin: 10px;
+}
